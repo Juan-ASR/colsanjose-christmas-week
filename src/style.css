@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: funnel sans;
+}
+
+
+header{
+    background-color: darkred;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+header ul{
+    display: flex;
+    gap: 35px;
+}
+
+header a{
+    color: white;
+}
+
+header ul a:hover{
+    color: darkred;
+    border-bottom: 1px solid darkred;
+}
+
+header img{
+    width: 300px;
+}
+
+.s1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 615px;
+    gap: 15px;
+    background-color: white;
+    color: black;
+}
+
+.s1 h1{
+    font-size: 40px;
+    color: darkred;
+}
+
+.s1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.s1 img{
+    width: 400px;
+}
+
+.s2{
+    padding: 20px;
+    background-color: darkred;
+}
+
+
+.s2-info h4{
+    color: white;
+    font-size: 30px;
+}
+
+.s2-info i{
+    color: white;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.carta-row{
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+}
+
+.carta{
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.carta-img{
+    padding: 10px;
+}
+
+.carta-img img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.infocart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infocart h5{
+    font-size: 18px;
+}
+
+.s3{
+    background-color: white;
+}
+
+.s3 img{
+    width: 500px;
+}
+
+footer{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    color: white;
+    background-color: darkred;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+    font-size: 15px;
+}
+
+
+footer li:nth-child(1){
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer li{
+    max-width: 380px;
+}
+
+footer ul a{
+    color: white;
+}
+
+footer ul a:hover{
+    border-bottom: 2px solid white;
+}
+
