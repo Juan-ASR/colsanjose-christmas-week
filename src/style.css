@@ -28,8 +28,7 @@ header a {
 }
 
 header ul a:hover {
-    color: darkred;
-    border-bottom: 1px solid darkred;
+    border-bottom: 1px solid white;
 }
 
 header img {
